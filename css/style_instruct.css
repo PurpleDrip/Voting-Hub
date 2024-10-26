@@ -1,0 +1,84 @@
+*{
+    border: 0;
+    margin: 0;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.main-head,h1{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.main{ 
+    width: 99.85vw;
+    height: 99.64vh;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: hsla(205, 46%, 10%, 1);
+    background: linear-gradient(90deg, hsla(205, 46%, 10%, 1) 0%, hsla(191, 28%, 23%, 1) 50%, hsla(207, 41%, 27%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(205, 46%, 10%, 1) 0%, hsla(191, 28%, 23%, 1) 50%, hsla(207, 41%, 27%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(205, 46%, 10%, 1) 0%, hsla(191, 28%, 23%, 1) 50%, hsla(207, 41%, 27%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0E1C26", endColorstr="#2A454B", GradientType=1 );
+}
+
+.content{
+    width: 54rem;
+    height: 28rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: rgba(255, 255, 255, 0.2); 
+    font-size: 21px;
+    border-radius: 3rem;
+    padding: 1rem;
+    color: rgb(13, 21, 29);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.checker{
+   text-align: center;
+   margin: 1rem 0 1rem 0;
+   padding-left: 10px;
+}
+
+.vote{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vote-btn{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.001); 
+    border: 2px solid rgb(0, 0, 0);
+    padding: 8px;
+    font-weight: 200;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+button{
+    font-family:  "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+a:hover{
+    background-color:#4d2c64;
+    border: 0.5px solid #697082;
+}
+
+.vote-btn:hover{
+    color: rgb(152, 176, 204);
+    transition: border 0.4s;
+    border : 2px solid rgb(152, 176, 204);
+}
